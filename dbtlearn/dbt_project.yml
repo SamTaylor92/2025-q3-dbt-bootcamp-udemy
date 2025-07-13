@@ -32,5 +32,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbtlearn:
     # Config indicated by + and applies to all files under models/example/
-    # example:
-    #   +materialized: view
+    +materialized: view # default for dbtlearn folder is a view. Plus (+) is to apply this to everything.
+    dim:
+      +materialized: table
