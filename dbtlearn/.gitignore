@@ -1,10 +1,4 @@
-
 target/
 dbt_packages/
 logs/
-../.vscode/
-../.vscode/
 .vscode/
-**/.vscode/
-.vscode/
-../.vscode/
